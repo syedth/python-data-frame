@@ -32,7 +32,7 @@ with open("innovators.csv", mode="r") as csv_file:
             print(f'{", ".join(row)}')
 
 # Assertions
-#  assert column names
+#  assert column names and verify
 def test_column_name():
     column_list = list(df)
     expected_list = ['Soldier', 'Pilot', 'Engineer', 'Doctor']
